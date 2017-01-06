@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.6.1//EN" "http://gwtproject.org/doctype/2.6.1/gwt-module.dtd">
+<module rename-to="test">
+	<inherits name="com.google.gwt.user.User" />
+	<inherits name="com.dtc.fhir.GWT" />
+<!-- 	<inherits name="com.sencha.gxt.ui.GXT" /> -->
+<!-- 	<inherits name="com.sencha.gxt.theme.gray.Gray"/> -->
+<!-- 	<inherits name="com.google.web.bindery.autobean.AutoBean"/> -->
+	
+	<!--GWT Material-->
+	<inherits name="gwt.material.design.GwtMaterialWithJQueryDebug"/>
+	<inherits name="gwt.material.design.themes.ThemeBlue"/>
+	<inherits name="gwt.material.design.addins.GwtMaterialAddinsDebug"/>
+	<inherits name="gwt.material.design.GwtMaterialTableDebug"/>
+
+	<extend-property name="locale" values="zh_CN"/>
+		
+	<source path="client" />
+	<source path="shared" />
+
+	<entry-point class="com.dtc.test.client.TestEP" />
+	<stylesheet src="reset.css" />
+	<add-linker name="xsiframe" />
+	<collapse-all-properties />	
+</module>

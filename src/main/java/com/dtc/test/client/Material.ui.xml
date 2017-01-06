@@ -1,0 +1,6 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<m:MaterialButton ui:field="button" text="Button" waves="DEFAULT" backgroundColor="WHITE" textColor="BLACK"/>
+</ui:UiBinder> 
